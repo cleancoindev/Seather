@@ -1,0 +1,26 @@
+# /etc/conf.d/seatherd: config file for /etc/init.d/seatherd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/seather/seather.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/seatherd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/seatherd.pid"
+
+# Where to write seatherd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/seatherd"
+
+# User and group to own seatherd process
+#BITCOIND_USER="seather"
+#BITCOIND_GROUP="seather"
+
+# Path to seatherd executable
+#BITCOIND_BIN="/usr/bin/seatherd"
+
+# Nice value to run seatherd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

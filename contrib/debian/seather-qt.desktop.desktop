@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Seather
+Comment=Seather P2P Cryptocurrency
+Exec=seather-qt %u
+Terminal=false
+Type=Application
+Icon=seather128
+MimeType=x-scheme-handler/seather;
+Categories=Office;Finance;
+Name[en_US]=seather-qt.desktop
